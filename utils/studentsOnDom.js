@@ -1,7 +1,4 @@
-import renderToDOM from '../utils/renderToDom';
-
-import default createId from '..utils/uniqueId';
-
+import renderToDOM from './renderToDom';
 
 const studentsOnDom = (divId, array, house = 'Hogwarts') => {
   let domString = '';

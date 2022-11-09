@@ -1,8 +1,8 @@
+import studentsOnDom from '../utils/studentsOnDom';
+
 import { students, houses } from '../utils/data/studentData';
 
 import createId from '../utils/uniqueId';
-
-import studentsOnDom from './..studentsOnDom';
 
 // ********** LOGIC  ********** //
 // sorts student to a house and then place them in the students array
